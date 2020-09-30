@@ -3,16 +3,8 @@ interface User {
   id: number;
 }
 
-<<<<<<< HEAD
-if (os.platform() == "linux") {
-  private _outputChannel: vscode.OutputChannel;	  const { exec } = require("child_process");
-  private _terminal: vscode.Terminal;	  exec("cd .. && chmod 755 dir_change.sh && ./dir_change.sh");
-  private _isRunning: boolean;	}
+// Changes made after revert
 
-  //Rest of the code remains unchanged
-
-=======
->>>>>>> parent of 252eddb... modified .ts file
 class UserAccount {
   name: string;
   id: number;
